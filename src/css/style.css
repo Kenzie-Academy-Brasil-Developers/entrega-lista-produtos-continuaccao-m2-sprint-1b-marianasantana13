@@ -10,7 +10,7 @@ body {
     padding: 30px;
 }
 
-.estiloGeralBotoes{
+.estiloGeralBotoes {
     border: none;
     font-weight: bold;
     border-radius: 5px;
@@ -27,6 +27,16 @@ body {
 
 .estiloGeralBotoes--filtrarHortifruti {
     background-color: tomato;
+    color: white;
+}
+
+.estiloGeralBotoes--filtrarPanificadora {
+    background-color: brown;
+    color: white;
+}
+
+.estiloGeralBotoes--filtrarLaticinio {
+    background-color: crimson;
     color: white;
 }
 
@@ -48,7 +58,7 @@ body {
 }
 
 /* CONTEÚDO */
-main{
+main {
     display: flex;
     padding: 30px;
     margin: 0 auto;
@@ -94,6 +104,7 @@ main{
 .containerListaProdutos ul li p {
     font-size: 1.5rem;
 }
+
 .containerListaProdutos ul li span {
     font-size: 0.8rem;
     font-weight: 500;
@@ -110,29 +121,33 @@ main{
     cursor: pointer;
     height: 40px;
 }
+
 .containerListaProdutos ul li button:hover {
     box-shadow: 1px 1px 2px rgb(189, 189, 189);
 }
 
-.containerListaProdutos ul li ol{
+.containerListaProdutos ul li ol {
     list-style: inside decimal;
     text-align: left;
 }
-.containerListaProdutos ul li ol li{
+
+.containerListaProdutos ul li ol li {
     font-size: 13px;
     margin: 7px 0;
 }
 
 /* PREÇO TOTAL */
-.containerPrecoTotal{
+.containerPrecoTotal {
     text-align: center;
     margin: 40px 0 30px;
 }
-.containerPrecoTotal p{
+
+.containerPrecoTotal p {
     font-size: 1rem;
     font-weight: 600;
 }
-.containerPrecoTotal p span{}
+
+.containerPrecoTotal p span {}
 
 
 
@@ -141,17 +156,21 @@ main{
     text-align: center;
     border: 1px solid #ccc;
 }
+
 .containerCarrinho img {
     max-width: 100px;
 }
+
 .containerCarrinho ul {
-    
+
     display: flex;
     flex-direction: column;
 }
+
 .containerCarrinho button {
     display: none;
 }
+
 .containerCarrinho li {
     display: flex;
     justify-content: space-around;
@@ -159,10 +178,10 @@ main{
     height: 100px;
 }
 
-.containerCarrinho li span{
+.containerCarrinho li span {
     font-size: 1.125rem;
 }
 
-.containerCarrinho li ol{
+.containerCarrinho li ol {
     display: none;
 }
